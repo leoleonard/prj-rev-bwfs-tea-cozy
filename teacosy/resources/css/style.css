@@ -1,0 +1,130 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  display: block;
+  width: 1200px;
+}
+
+.container-header {
+  width: 1200px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.container-header img {
+  height: 50px;
+}
+
+
+nav {
+  display: block;
+  color: seashell;
+}
+
+
+.container-main {
+  display: block;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.container-mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+
+#featured {
+  width: 1000px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-featuredtea {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.item {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+#featured img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  display: block;
+  text-align: center;
+}
+.container-locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item-location {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  padding: 15px 40px;
+  opacity: 1px;
+}
+
+#locations h2 {
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
